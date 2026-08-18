@@ -131,6 +131,7 @@ Official and community implementations of the x402 protocol.
 
 ## 🏭 Production Implementations
 
+- [FractalAI — Post-Quantum Proof API](https://fractalai.net.co) - 7 pay-per-call proof services signed with **post-quantum ML-DSA-65 / Dilithium-3 (NIST FIPS-204)**: digital signature, AI-decision notary, dataset & training provenance (C2PA), Know-Your-Agent identity, and CBOM sealing. USDC micropayments on Base (gasless EIP-3009, x402 **v2**); every proof is **offline-verifiable** (`signed_message` + `ml_dsa65.verify`). Machine-readable catalog at `/.well-known/x402.json`. To our knowledge, the first/only post-quantum proof API on x402.
 Real companies using x402 in production with proven scale and transaction volumes.
 
 ### High-Volume Production Deployments
